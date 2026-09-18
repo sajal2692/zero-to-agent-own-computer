@@ -136,16 +136,6 @@ dollar an hour, and a run uses a few cents. The free plan limits a sandbox to on
 The price constants at the top of each script feed the cost summary. Check them against the
 current price lists.
 
-## Things to know
-
-- The desktop demos browse a real shopping site. Run them as a single supervised session, the
-  way you would browse yourself. If a site blocks the agent or shows a CAPTCHA, it stops and
-  says so.
-- The agent never signs in, creates accounts, or buys anything. Those rules are in the
-  instructions at the top of the desktop scripts, along with a description of its computer.
-- Agents vary from run to run. The same task can take a different route and a different
-  amount of time.
-
 ## Data and credits
 
 Nothing in this repo is synthetic. Demo 1 downloads the
