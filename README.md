@@ -54,12 +54,8 @@ The agent gets this task:
 > whether the high earners also have low unemployment. Write me a one-page PDF report with a
 > couple of charts.
 
-What to look for:
-
-- It downloads the files and installs its own Python packages on the sandbox.
-- It writes and runs an analysis script, and fixes it when a command fails.
-- It looks at its finished page as an image and fixes anything cut off.
-- The script brings `report.pdf` back to your machine, then deletes the sandbox.
+Watch it install its own packages, run the analysis, and check its finished page before it
+stops. The script then brings `report.pdf` back to your machine and deletes the sandbox.
 
 ### Demo 2: through the screen
 
@@ -75,12 +71,8 @@ in the terminal to start. The agent gets this task:
 > Write me a short report with the three desks, their price, size, and rating, and tell me
 > which one you'd pick and why.
 
-What to look for:
-
-- It starts from an empty desktop and opens the browser itself.
-- It deals with the cookie banner and pop-ups before it starts the task.
-- Each round is a screenshot, a decision, a few actions, and a check of the new screen.
-- It reports only what it saw on the site, and ends with a short written report.
+It starts from an empty desktop, opens the browser itself, and works through the site one
+screenshot at a time. It ends with a short written report.
 
 ### Demo 3: the same loop by hand
 
